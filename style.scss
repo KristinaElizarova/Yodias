@@ -12,12 +12,23 @@ body {
     line-height: 1.6;
 }
 
-#container {
+.container {
     max-width: 500px;
     padding: 0 25px;
     margin: 0 auto;
 }
 .rounded {
+  counter-reset: li;
+//	font-family:'Open Sans', sans-serif;
+	font-size:20px;
+	line-height:20px;
+	text-transform:uppercase;
+	cursor:pointer;
+	letter-spacing:1px;
+	position:relative;
+	color:#fff;
+}
+//.rounded {
 counter-reset: li;
 list-style: none;
 font: 14px "Trebuchet MS", "Lucida Sans";
@@ -44,7 +55,7 @@ position: absolute;
 left: -1.3em;
 top: 50%;
 margin-top: -1.3em;
-background: #8FD4C1;
+background: #b0b5b3;
 height: 2em;
 width: 2em;
 line-height: 2em;
