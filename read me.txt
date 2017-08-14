@@ -1,0 +1,5 @@
+1.Прикрутить vue к приложению (см. пункт 6 из практики)
+2.Прикрутить vuex. Реализовать мутацию удаления элемента из списка.
+3.Сделать Router (http://slides.com/denispankov/sm-fe#/)
+
+Пример: https://github.com/KristinaElizarova/summer-school-2017

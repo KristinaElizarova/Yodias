@@ -1,4 +1,8 @@
-
+@import "components/cities-list";
+@import "components/city-card";
+@import "components/day-cell";
+@import "components/page";
+@import "components/search-panel";
 * {
     padding: 0;
     margin: 0;
@@ -17,31 +21,29 @@ body {
     padding: 0 25px;
     margin: 0 auto;
 }
+form {
+
+  font-size: 12px;
+}
 .rounded {
   counter-reset: li;
-//	font-family:'Open Sans', sans-serif;
+	//font-family:'Open Sans', sans-serif;
 	font-size:20px;
 	line-height:20px;
 	text-transform:uppercase;
 	cursor:pointer;
 	letter-spacing:1px;
 	position:relative;
-	color:#fff;
+	color:#000;
 }
-//.rounded {
-counter-reset: li;
-list-style: none;
-font: 14px "Trebuchet MS", "Lucida Sans";
-padding: 0;
-text-shadow: 0 1px 0 rgba(255,255,255,.5);
-}
+
 .rounded a {
 position: relative;
 display: block;
 padding: .4em .4em .4em 2em;
 margin: .5em 0;
 background: #DAD2CA;
-color: #444;
+color: #000;
 text-decoration: none;
 border-radius: .3em;
 transition: .3s ease-out;
