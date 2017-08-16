@@ -2,5 +2,6 @@
 2.Прикрутить vuex. Реализовать мутацию удаления элемента из списка.
 3.Сделать Router (http://slides.com/denispankov/sm-fe#/)
 4.Подключить API (axios)
+5.Оптимизация (red:rect, lazy load просто посмотреть)
 
 Пример: https://github.com/KristinaElizarova/summer-school-2017
